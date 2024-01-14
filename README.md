@@ -4,12 +4,12 @@ Tujuan tugas ini adalah membuat sebuah projek testing yang mengimplementasikan C
 ## Persiapan Projek
 Set dependencies yang dibutuhkan pada projek ini seperti selenium, webdriver, junit, dan cucumber
 Setelah itu buat task cucumber untuk menjalankan test case
-!(https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/dependencies%20and%20task.png)
+(https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/dependencies%20and%20task.png?raw=true)
 
 
 ## Persiapan Test
 Setelah itu buat Gherkin file pada folder test/resources bernama login.feature, disini buat test case yang akan dijalankan. Pada projek ini akan ada 3 test cases:
-!(https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/test%20cases.png)
+(https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/test%20cases.png?raw=true)
 
 ## Test
 Generate Step Definition dari file Gherkin yang telah dibuat
@@ -20,8 +20,8 @@ Setup driver dilakukan pada class TestPrep yang nantinya akan diextend oleh Step
 Setelah semuanya sudah selesai, maka buat class CucumberHooks yang akan memanage Before dan After pada tiap case
 Untuk menjalankan seluruh test case, disini dibuat file CucumberPrep yang menginisiasi CucumberOptions dan menjadi tempat untuk menjalankan seluruh test case
 Jika semuanya sudah selesai, maka projeknya akan menjadi seperti berikut:
-(https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/all%20files.png)
+(https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/all%20files.png?raw=true)
 
 ## Run Test
 Jalankan test dengan menjalankan CucumberPrep, jika semuanya sudah sesuai maka hasilnya akan seperti berikut:
-(https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/result.png)
+(https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/result.png?raw=true)
