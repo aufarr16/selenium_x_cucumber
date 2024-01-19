@@ -43,6 +43,7 @@ jobs:
     - name: Run Cucumber Test
       run: ./gradlew cucumber
 
+    # upload artifact
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
       with:
