@@ -33,3 +33,6 @@ Jika sudah, commit change lalu workflow akan dijalankan secara otomatis
 ![](https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/choose%20workflow.png?raw=true)
 ![](https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/main%20yml.png?raw=true)
 
+Jika semua sudah sesuai, maka hasilnya akan seperti gambar di bawah:
+![](https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/hasil%20github%20workflow.png?raw=true)
+
