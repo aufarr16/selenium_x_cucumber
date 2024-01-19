@@ -25,3 +25,11 @@ Jika semuanya sudah selesai, maka projeknya akan menjadi seperti berikut:
 ## Run Test
 Jalankan test dengan menjalankan CucumberPrep, jika semuanya sudah sesuai maka hasilnya akan seperti berikut:
 ![](https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/result.png?raw=true)
+
+## Buat Github Actions
+Pergi ke tab "Actions" lalu buat workflow baru, karena kita menggunakan gradle java maka klik button "Configure" pada workflow "Java with Gradle"
+Secara default github akan memberi template file .yml nya, namun ubah sesuai dengan kebutuhan
+Jika sudah, commit change lalu workflow akan dijalankan secara otomatis
+![](https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/choose%20workflow.png?raw=true)
+![](https://github.com/aufarr16/selenium_x_cucumber/blob/master/readme-img/main%20yml.png?raw=true)
+
