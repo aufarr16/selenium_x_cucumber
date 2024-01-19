@@ -10,9 +10,9 @@ public class TestPrep {
 
     protected void getDriver(){
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        options.addArguments("--headless=new");
 
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
     }
 }
