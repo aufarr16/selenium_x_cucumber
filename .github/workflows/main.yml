@@ -42,4 +42,11 @@ jobs:
     # execute test script
     - name: Run Cucumber Test
       run: ./gradlew cucumber
+
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v3
+      with:
+        name: web-ui-automation-cucumber-artifact
+        path: web-ui-automation-cucumber.txt
+        retention-days: 5
           
